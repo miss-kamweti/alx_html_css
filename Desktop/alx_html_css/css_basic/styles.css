@@ -16,11 +16,64 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    margin: 10px;
+    border-left: 4px solid #3498db;
+}
+
+/* Header and Footer Styles */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Navigation Styles */
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header li.logo {
+    font-size: 28px;
+    color: #e74c3c;
+    margin-right: 30px;
+}
+
+header a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Design */
@@ -28,4 +81,59 @@ aside {
     main {
         flex-direction: column;
     }
+    
+    header ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    header li {
+        margin-bottom: 10px;
+    }
+}
+
+/* Article Styling */
+article h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+article h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+article h3 {
+    color: #7f8c8d;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+article a {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+article a:hover {
+    color: #c0392b;
+    text-decoration: underline;
+}
+
+/* Aside Styling */
+aside p {
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Footer Link Styling */
+footer a {
+    color: #3498db;
+}
+
+footer a:hover {
+    color: #2980b9;
 }
