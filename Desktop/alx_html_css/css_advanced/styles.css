@@ -271,3 +271,41 @@ body {
     color: var(--gray-color);
     font-weight: 600;
 }
+
+/* Membership Section */
+.membership {
+    background: var(--dark-color);
+    color: var(--light-color);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.membership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.membership-card {
+    text-align: center;
+}
+
+.membership-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.membership-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--light-color);
+}
+
+.membership-desc {
+    font-size: 14px;
+    color: var(--gray-color);
+    line-height: 1.5;
+}
