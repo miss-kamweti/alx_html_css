@@ -22,3 +22,10 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
