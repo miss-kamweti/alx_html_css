@@ -116,3 +116,45 @@ body {
     color: var(--light-color);
     transform: translateY(-2px);
 }
+
+/* Quotes Section */
+.quotes {
+    background: var(--primary-color);
+    color: var(--light-color);
+    padding: 100px 0;
+}
+
+.quote-card {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.quote-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.quote-role {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+    font-style: italic;
+}
